@@ -1,0 +1,9 @@
+The best way to prevent this is to use a linter that checks for valid Tailwind classes.  Alternatively, carefully review all your classes during development to ensure they are correctly defined in your `tailwind.config.js` file.  Here's how you could refactor the HTML to be more robust:
+
+```html
+<div class="bg-blue-500 text-red-700">
+  Some text
+</div>
+```
+
+This removes the undefined class, ensuring consistent and predictable styling.  If you need to use dynamic classes, ensure they are correctly generated and validated before application.
